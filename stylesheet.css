@@ -2,6 +2,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
+  background-attachment: fixed;
+  background-size: cover;
   background-image: linear-gradient(
     to bottom,
     rgb(183, 244, 255),
@@ -31,7 +33,12 @@ h2 {
 }
 
 #main {
-  margin-top: 80px;
+  margin: 80px auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#mainwrap {
   display: flex;
   justify-content: space-evenly;
 }
@@ -42,7 +49,7 @@ h2 {
   border: 1px hidden;
   border-radius: 15px;
   height: 435px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.400);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
 #pricing p:nth-child(even) {
@@ -91,7 +98,7 @@ h2 {
   border-radius: 15px;
   width: 170px;
   height: 435px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.200);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #free p:nth-child(even) {
@@ -161,7 +168,7 @@ h2 {
   border-radius: 15px;
   width: 170px;
   height: 435px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.200);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #permonth1child1 p:nth-child(even) {
@@ -235,7 +242,7 @@ h2 {
   border-radius: 15px;
   width: 170px;
   height: 435px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.200);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #permonth2child1 p:nth-child(even) {
@@ -309,7 +316,7 @@ h2 {
   border-radius: 15px;
   width: 170px;
   height: 435px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.200);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #permonth3child1 p:nth-child(even) {
